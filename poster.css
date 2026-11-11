@@ -1,0 +1,9 @@
+/* Real movie-poster look for cards, Nov 11 2026 */
+.tl-card{border:1px solid #d9a93a59;border-radius:8px;background:#3a0a10;box-shadow:0 12px 26px #000a,0 2px 6px #0008}
+.tl-art{filter:grayscale(.6) brightness(.75) sepia(.6) hue-rotate(-48deg) saturate(3) contrast(1.08)}
+.tl-card::before{content:"";position:absolute;inset:0;z-index:1;border-radius:8px;pointer-events:none;background:radial-gradient(circle,#1a020499 .9px,#0000 1.4px),radial-gradient(130% 100% at 50% 0%,#ff5a3c24 0%,#0000 45%),linear-gradient(180deg,#0000 34%,#1c0206cc 74%,#100103f5 100%);background-size:4px 4px,auto,auto;box-shadow:inset 0 0 0 1px #ffd76a33,inset 0 0 46px #000c}
+.tl-card>:not(.tl-art){z-index:2}
+.tl-mm,.tl-ini{display:none}
+.tl-card>.tl-title{font-style:italic;text-transform:uppercase;color:#ffd76a;text-align:center;font-size:24px;font-weight:900;line-height:1.06;letter-spacing:.01em;transform:skew(-3deg);text-shadow:0 1px 0 #a1121b,0 2px 0 #7d0c14,0 3px 0 #59080d,0 4px 0 #38050a,0 7px 16px #000,0 0 26px #ffb70359}
+.tl-card>.tl-act{color:#ffe9b0;text-transform:uppercase;letter-spacing:.16em;font-size:10px;font-weight:600;margin-top:7px;opacity:.95}
+.tl-card>.tl-day{color:#d9a93a;letter-spacing:.2em;text-transform:uppercase;font-size:11px;font-weight:800;margin-top:6px;border-top:1px solid #d9a93a40;padding-top:6px}
